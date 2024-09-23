@@ -168,3 +168,57 @@
     }
 }
 /* End Section three */
+
+
+/* Section four */
+.section-four{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.section-four .inner-content{
+    position: absolute;
+    top: 80px;
+}
+
+.section-four .inner-content .inner-title{
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.section-four .inner-content .inner-desc{
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 35px;
+    color: #777777;
+}
+.section-four .inner-img img{
+    display: flex;
+    margin: auto;
+}
+
+@media (max-width: 991.98px) {
+    .section-four .inner-title{
+        text-align: center;
+    }
+    .section-four .inner-desc{
+        text-align: center;
+    }
+    .section-four .inner-img img{
+        position: absolute;
+        top: 300px;
+        left: 190px;
+    }
+    .hr{
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .section-four .inner-img img{
+        position: absolute;
+        top: 300px;
+        left: 130px;
+    }
+}
+/* End Section four */
